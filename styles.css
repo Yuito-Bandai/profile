@@ -65,4 +65,6 @@ body {
     color: #fff; /* ダークモードのテキストカラー */
 }
 
-.dark-mode #dark-mode-c
+.dark-mode #dark-mode-checkbox:checked + label {
+    color: #fff; /* ダークモードのテキストカラー */
+}
