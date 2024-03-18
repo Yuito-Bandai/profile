@@ -1,5 +1,9 @@
 /* アニメーション効果 */
 .profile-image img:hover {
+    width: 150px; /* プロフィール画像の幅を調整 */
+    height: 150px; /* プロフィール画像の高さを調整 */
+    border-radius: 50%;
+    margin-right: 20px;
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
