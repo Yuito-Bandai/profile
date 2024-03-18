@@ -14,7 +14,7 @@
 .profile-container {
    max-width: 800px;
     margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.5); /* 背景の色と透明度 */
+    background-color: rgba(255, 255, 255, 0.8); /* 背景の色と透明度 */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
