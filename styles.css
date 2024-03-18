@@ -1,7 +1,12 @@
-/* アニメーション効果 */
-.profile-image img:hover {
+.profile-image img {
     width: 150px; /* プロフィール画像の幅を調整 */
     height: 150px; /* プロフィール画像の高さを調整 */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* アニメーション効果 */
+.profile-image img:hover {
     border-radius: 50%;
     margin-right: 20px;
     transform: scale(1.1);
