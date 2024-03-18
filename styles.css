@@ -5,8 +5,14 @@
     text-align: center;
 }
 
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
 .profile-container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 8px;
@@ -14,14 +20,10 @@
     overflow: hidden;
 }
 
-.profile-header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
 .profile-content {
     padding: 20px;
+    max-width: 600px; /* テキストの最大幅を設定 */
+    margin: 0 auto; /* テキストを中央揃え */
 }
 
 .profile-content h2 {
@@ -32,6 +34,7 @@
     margin-bottom: 8px;
     line-height: 1.5;
 }
+
 
 .profile-image img {
     width: 150px; /* プロフィール画像の幅を調整 */
